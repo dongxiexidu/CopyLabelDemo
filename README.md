@@ -9,3 +9,6 @@ view.addSubview(copyLabel)
 ```
 or 
 ![xib_support](https://github.com/dongxiexidu/CopyLabelDemo/blob/master/xib_support.png)
+
+learn from
+[Objective-C version](https://github.com/gitwangxiancheng/CopyLabel)
