@@ -19,7 +19,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Xib/Storyboard CopyLabel Test " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vy5-rn-hTW" customClass="CopyLabel" customModule="CopyLabelDemo" customModuleProvider="target">
-                                <rect key="frame" x="132" y="323" width="243" height="21"/>
+                                <rect key="frame" x="132" y="170" width="243" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -27,9 +27,10 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="vy5-rn-hTW" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="150" id="0oj-tb-3yG"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="vy5-rn-hTW" secondAttribute="trailing" id="FPR-fo-yCl"/>
-                            <constraint firstItem="vy5-rn-hTW" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="JmU-aE-8l0"/>
-                            <constraint firstItem="vy5-rn-hTW" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" symbolic="YES" id="XDF-9J-FGm"/>
+                            <constraint firstItem="vy5-rn-hTW" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" symbolic="YES" id="iIv-6l-r4T"/>
+                            <constraint firstItem="vy5-rn-hTW" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="pHX-sm-e6J"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
